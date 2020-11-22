@@ -1,10 +1,22 @@
 .mySlides {
     display: none;
-    width:96%;
+    width:98%;
     height:550px;
-    margin:2%
+    margin:1%
     
 }
+.w3-tangerine {
+    font-family: "Tangerine", serif;
+    text-align: right;
+    margin-top: 0.2em;
+  }
+
+header h2 {
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 0.2em;
+	text-align: left;
+}
+  
 footer {
 	font-size: .70em;
 	text-align: center;
