@@ -14,10 +14,14 @@
   margin-right: 1%;
 }
 .w3-tangerine {
-    font-family: "Tangerine", serif;
-    text-align: right;
-    margin-top: 0.2em;
-  }
+  font-family: "Tangerine", serif;
+}
+.indiadesc{
+  align-content: center;
+  text-align: center;
+  margin-left: 2%;
+  margin-right:2%;
+}
 
 header h2 {
 	font-family: Verdana, Arial, sans-serif;
