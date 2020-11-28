@@ -5,6 +5,14 @@
     margin:1%
     
 }
+.alignleft {
+  float: left;
+  margin-left: 1%;
+}
+.alignright {
+  float: right;
+  margin-right: 1%;
+}
 .w3-tangerine {
     font-family: "Tangerine", serif;
     text-align: right;
