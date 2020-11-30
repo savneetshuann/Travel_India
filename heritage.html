@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>heritage</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div class="w3-tangerine">
+                <h2 class="alignleft">Travel India</h2>
+                <h3 class="alignright">Atithi Devo Bhava</h3>
+            </div>
+        </header>
+        <nav>
+            <div class="w3-bar w3-card-4 w3-blue">
+                <a href="index.html" class="w3-bar-item w3-button">Home</a>
+                <a href="#" class="w3-bar-item w3-button">Destinations</a>
+                <a href="#" class="w3-bar-item w3-button">Link 2</a>
+                <a href="#" class="w3-bar-item w3-button">Link 3</a>
+            </div>
+        </nav>
+        <main>
+            <div class="w3-content w3-section" style="max-width:100%;">
+                <figure>                    
+                    <img class="mySlides" src="images/her2.png" alt="heritage">
+                    <img class="mySlides" src="images/her3.png" alt="heritage">
+                    <img class="mySlides" src="images/her4.png" alt="heritage">                    
+                    <img class="mySlides" src="images/her5.png" alt="heritage">
+                    <img class="mySlides" src="images/her6.png" alt="heritage">
+                </figure>
+            </div>
+            
+        </main>
+        <footer>
+            <p>&copy; Copyright 2020</p>
+        </footer>
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+
+</html>
