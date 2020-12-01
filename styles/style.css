@@ -1,5 +1,5 @@
 /*Author:Savneet(C0777993)
-    Added on :09-11-2020-->*/
+    Added on :09-11-2020*/
 .mySlides {
     display: none;
     width:98%;
@@ -31,7 +31,9 @@
 	background-color: #FFFFFF;
   box-shadow: .5em .5em .5em #404040;
   width: 96%;
-
+}
+.h1{
+  text-align: center;
 }
 .floatleft{
 width: 97%;
