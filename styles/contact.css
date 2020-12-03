@@ -72,4 +72,26 @@ ul li a{
 
 }
 ul li:hover{
-    background-color: royalblue;
+    background-color: royalblue;}
+.maps{
+    width: 500px; 
+    float:left; 
+    height:400px; 
+    background:gray;
+     margin:10px"
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  td, th {
+    border: 8px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
