@@ -11,16 +11,11 @@ body
 	margin: 0px auto;
 }
 /* added by savneet*/
-.alignleft {
-	float: left;
-	margin-left: 1%;
-	font-size: 25px;  
-  }
-  .alignright {
-	float: right;
-	margin-right: 1%;
-	font-family: "Tangerine", serif;
-	font-size: 25px;
+  footer {
+	display: block;
+	  font-size: .70em;
+	  text-align: center;
+	  margin-top: 2em;
   }
 /*ends here*/
 img
