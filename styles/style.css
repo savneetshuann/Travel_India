@@ -100,11 +100,11 @@ footer {
 	text-align: center;
 	margin-top: 2em;
 }
+
 /*Styles for tablet layout*/
 @media screen and (min-width: 481px){
   .alignleft {
-    font-size: 35px;
-     
+    font-size: 35px;     
   }
   .alignright {
     font-size: 35px;
