@@ -15,8 +15,18 @@ body
 	display: block;
 	  font-size: .70em;
 	  text-align: center;
-	  margin-top: 2em;
+	  margin-top: 2em;	  
   }
+  .alignleft {
+	float: left;
+	margin-left: 1%;
+
+}
+.alignright {
+	float: right;
+	margin-right: 1%;
+	font-family: "Tangerine", serif;
+}
 /*ends here*/
 img
 {
