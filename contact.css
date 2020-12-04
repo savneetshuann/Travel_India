@@ -49,10 +49,10 @@ border-radius:8px;
 .style{
     height:100px;
     width:100;
-    background-color:lightblue;
+    background-color:blue;
 }
 nav{
-    background-color: lightblue;
+    background-color: blue;
     padding-top: 50px;
     padding-bottom: 50px;
     }
@@ -69,11 +69,11 @@ ul li{
     transition: all 0.7s ease;
 }
 ul li a{
-    font-size:20px;
+    font-size:30px;
 
 }
 ul li:hover{
-    background-color: royalblue;
+    background-color: darkblue;
 }
 .maps{
     width: 500px; 
