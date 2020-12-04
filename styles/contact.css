@@ -1,6 +1,6 @@
 body 
  {
-     margin:0;
+margin:0;
 padding:0;
 background: url(bg.jpg);
 background-size: cover;
@@ -48,13 +48,13 @@ border-radius:8px;
 }
 .style{
     height:100px;
-    width:100;
-    background-color:lightblue;
+    width:100px;
+    background-color:rgb(136, 255, 0);
 }
 nav{
-    background-color: lightblue;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    background-color:rgb(0, 153, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
     ul{
         display:flex;
@@ -62,7 +62,7 @@ nav{
 }
 ul li{
     display: inline-block;
-    background-color: dodgerblue;
+    background-color: purple;
     padding: 12px 16px;
     margin: 0 5px;
     cursor:pointer;
@@ -73,7 +73,7 @@ ul li a{
 
 }
 ul li:hover{
-    background-color: royalblue;
+    background-color:yellowgreen;
 }
 .maps{
     width: 500px; 
