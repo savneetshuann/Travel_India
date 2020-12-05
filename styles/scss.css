@@ -51,6 +51,10 @@ background-color: mediumslateblue;
   width:1000px; height:"400px";
 
 }
+#container
+{
+  height:'1030px' ; width:'600px';
+}
 
 .dropbtn {
   
@@ -90,7 +94,7 @@ background-color: mediumslateblue;
   display: block;
 }
 
-/*Styles for tablet layout*/
+/*tablet layout*/
 @media screen and (max-width: 481px)
 {
   iframe
@@ -98,6 +102,10 @@ background-color: mediumslateblue;
     width: 100%;
   }
   #last
+  {
+    width: 100%;
+  }
+  #container
   {
     width: 100%;
   }
