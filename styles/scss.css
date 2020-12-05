@@ -9,6 +9,11 @@ h3
 ul{
   list-style-type:square ;
 }
+iframe{
+  width:"850px"; 
+  height:"500px";
+}
+
 table, th, td
   {
       border: 1px solid black;
@@ -84,3 +89,10 @@ background-color: mediumslateblue;
   display: block;
 }
 
+/*Styles for tablet layout*/
+@media screen and (max-width: 481px)
+{
+  iframe
+  {
+    width: 100%;
+  }
