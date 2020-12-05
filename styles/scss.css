@@ -16,7 +16,14 @@ table, th, td
       font-size: xx-large;
       padding-top: 12px;
       
+      
 }
+
+td
+{
+  font-family: monospace;
+}
+
 hr
 {
 background-color: mediumslateblue;
