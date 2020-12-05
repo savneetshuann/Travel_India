@@ -18,6 +18,10 @@ table, th, td
       
       
 }
+label
+{
+  font-family: serif;
+}
 
 td
 {
