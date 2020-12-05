@@ -48,6 +48,7 @@ background-color: mediumslateblue;
 	border-radius: 1em;
 	background-color: blueviolet;
   box-shadow: .5em .5em .5em #404040;
+  width:1000px; height:"400px";
 
 }
 
@@ -93,6 +94,10 @@ background-color: mediumslateblue;
 @media screen and (max-width: 481px)
 {
   iframe
+  {
+    width: 100%;
+  }
+  #last
   {
     width: 100%;
   }
